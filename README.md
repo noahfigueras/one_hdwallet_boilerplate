@@ -6,9 +6,10 @@ Node v15.14.0
 Web3.js v1.3.5  
 ## Installation
 1. ```git clone https://github.com/noahfigueras/one_hdwallet_boilerplate.git```  
-2. export MNEMONIC='Your metamask mnemonic'
+2. ```export MNEMONIC='Your metamask mnemonic'```
 3. Set truffle-config.js with correct account funded in HDWalletProvider():    
-```provider: () => new HDWalletProvider(
+```
+provider: () => new HDWalletProvider(
 		mnemonic, 
 		'https://api.s0.b.hm,
 		1                //EX:(this is accounts[1] in metamask)
